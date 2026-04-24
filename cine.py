@@ -133,24 +133,3 @@ if tipo_publico == "Adulto Mayor":
         print(f"IVA:         ${round(total_iva)}")
         print("-" * 45)
         print(f"Total:       ${round(total)}")
-        
-
-
-    
-# elif tipo_publico == "3D":
-#     tipo_sala = input("Tipo de Sala (Normal, 3D, 4DX):")
-    
-# if tipo_sala == "Normal":
-#     cantidad_ticket = int(input("Ingrese Cantidad de Entradas:"))
-#     total_entradas = 5600 * cantidad_ticket
-                
-#     total_iva = total_entradas * iva
-                
-#     total = total_entradas + total_iva
-                
-#     print(f"Sub total:   ${total_entradas}")
-#     print(f"IVA:         ${round(total_iva)}")
-#     print("-" * 45)
-#     print(f"Total:       ${round(total)}")
-
-            
