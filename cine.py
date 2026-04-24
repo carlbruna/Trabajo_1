@@ -1,5 +1,7 @@
 print("Bienvenido Al Cine")
 
+iva == 0.19
+
 usuario = input("Ingrese Nombre de Usuario:")
 
 clave = input("Ingrese Contraseña:")
@@ -8,5 +10,15 @@ tipo_publico = input("Indique el tipo de público (Normal, Estudiante, Adulto Ma
 
 if tipo_publico == "Normal":
     tipo_sala = input("Tipo de Sala (Normal, 3D, 4DX):")
-
-    cantidad_ticket = int(input("Ingrese Cantidad de Entradas:"))
+    if tipo_sala == "Normal":
+        cantidad_ticket = int(input("Ingrese Cantidad de Entradas:"))
+        total_entradas = 5600 * cantidad_ticket
+        
+        total_iva = total_entradas * iva
+        
+        total =
+        
+        print(f"Sub total:   ${total_entradas}")
+        print(f"IVA:         ${round(total_iva)}")
+        print("-" * 45)
+        print(f"")
